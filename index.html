@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Sharma - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>Shubham Sharma</h1>
+        <p>Robotics and AI Enthusiast</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about" class="glitch-button" data-text="About">About</a></li>
+            <li><a href="#skills" class="glitch-button" data-text="Skills">Skills</a></li>
+            <li><a href="#projects" class="glitch-button" data-text="Projects">Projects</a></li>
+            <li><a href="#contact" class="glitch-button" data-text="Contact">Contact</a></li>
+            <li>
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                    <span>Dark Mode</span>
+                </button>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="photo-area parallax">
+            <img src="https://i.ibb.co/R4NdTJ2/pt.jpg" alt="Shubham Sharma" class="profile-pic"  width="180" height="240">
+        </div>
+
+        <section id="about" class="section fade-in slide-in">
+            <h2 class="section-heading">About Me</h2>
+            <div class="about-content">
+                <p>
+                    Hello! I'm <b>Shubham Sharma</b>, a first-semester B.Tech student specializing in <b>Robotics and Artificial Intelligence</b> at the <b>World College of Technology and Management</b>. My journey in technology began long before my formal education, culminating in three years of hands-on coding experience.
+                </p><br>
+                <p><b><h3>I'm particularly drawn to areas such as:</h3></b>
+                </p>
+                <ol>
+                    <li>Machine Learning and Neural Networks</li>
+                    <li>Computer Vision and Image Processing</li>
+                    <li>Robotic Control Systems</li>
+                    <li>Natural Language Processing</li>
+                </ol>
+                <br><p>
+                    As I progress through my B.Tech program, I'm eager to apply my knowledge to real-world challenges in robotics and AI. My goal is to create innovative solutions that bridge theory and practice in these rapidly evolving fields. I'm always ready to tackle new challenges, collaborate on cutting-edge projects, and explore the vast potential of technology. Whether it's developing smarter algorithms or designing efficient robotic systems, I'm committed to making a meaningful impact in this exciting field.
+                </p>
+                <p>
+                    Let's connect and explore the exciting future of robotics and AI together!
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="section fade-in slide-in">
+            <h2 class="section-heading">Skills</h2>
+            <div class="skill-bars">
+                <div class="skill-bar" data-skill="HTML" data-percentage="95">
+                    <div class="skill-info">
+                        <span class="skill-name">HTML</span>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                </div>
+                <div class="skill-bar" data-skill="CSS" data-percentage="95">
+                    <div class="skill-info">
+                        <span class="skill-name">CSS</span>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                </div>
+                <div class="skill-bar" data-skill="JavaScript" data-percentage="80">
+                    <div class="skill-info">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                </div>
+                <div class="skill-bar" data-skill="Java" data-percentage="90">
+                    <div class="skill-info">
+                        <span class="skill-name">Java</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                </div>
+                <div class="skill-bar" data-skill="Python" data-percentage="95">
+                    <div class="skill-info">
+                        <span class="skill-name">Python</span>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                </div>
+                <div class="skill-bar" data-skill="C/C++" data-percentage="90">
+                    <div class="skill-info">
+                        <span class="skill-name">C/C++</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section fade-in slide-in">
+            <h2 class="section-heading">Projects</h2>
+            <div class="project-grid">
+                <div class="project-item hover-slide">
+                    <h3>To-Do Web-App</h3>
+                    <p>Developed a responsive to-do list web-based application using HTML, CSS, and JavaScript. Features include task addition, deletion, and status tracking.</p>
+                </div>
+                <div class="project-item hover-slide">
+                    <h3>Trained AI model</h3>
+                    <p>Trained a whole AI model to work more efficiently and work in a effective way.</p>
+                </div>
+                <div class="project-item hover-slide">
+                    <h3>Built Bug Bounty Courses</h3>
+                    <p>Built a whole course of bug bounty that is beginner-friendly.</p>
+                </div>
+            </div>
+        </section>
+
+<section id="contact" class="section fade-in slide-in">
+    <h2 class="section-heading">Contact Me</h2>
+    <div class="contact-wrapper">
+        <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>I'd love to hear from you! Whether you have a project in mind or just want to say hello, feel free to reach out.</p>
+            <div class="contact-details">
+                <p><i class="fas fa-envelope"></i> shubham.ind7106@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +918744007106</p>
+            </div>
+        </div>
+        <form id="contact-form" class="contact-form">
+            <div class="input-group">
+                <input type="text" id="name" required>
+                <label for="name">Your Name</label>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="email">Your Email</label>
+            </div>
+            <div class="input-group">
+                <textarea id="message" required></textarea>
+                <label for="message">Your Message</label>
+            </div>
+            <button type="submit" class="submit-btn magnetic-button">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+</section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Shubham Sharma. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
